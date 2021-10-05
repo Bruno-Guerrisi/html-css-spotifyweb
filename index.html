@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css' integrity='sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==' crossorigin='anonymous'/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -18,13 +20,26 @@
     <div class="all-container">
 
         <!-- BAR CONTROLLER -->
-        <header class="header-controller">
+        <header class="header-controller dis-flex">
 
             <!-- CONTAINER LEFT BAR CONTROLLER -->
-            <div class="container-left">
+            <div class="container-left dis-flex">
 
-                <div class="banner-music"></div>
-                <div class="icon-banner"></div>
+                <div class="banner-music dis-flex">
+
+                    <img class="mr-r-10" src="./img/sinister.jpeg" alt="sinister cover">
+
+                    <div class="info-music-banner mr-r-30">
+                        <h5>Sinister</h5>
+                        <span class="col-gray">Brano nome</span>
+                    </div>
+                </div>
+
+                <div class="icon-banner dis-flex">
+                    
+                    <i class="mr-r-10 col-gray far fa-heart"></i>
+                    <i class="col-gray far fa-folder"></i>
+                </div>
             </div>
 
             <!-- CONTAINER CENTER BAR CONTROLLER -->
@@ -102,7 +117,7 @@
             <div class="account"></div>
         </section>
 
-        <main>
+        <main class=".overf-y">
 
             <!-- UPGRADE SPOTIFY -->
             <div class="header-upgrade"></div>

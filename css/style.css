@@ -3,4 +3,81 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* UTILITY */
+.overf-y{
+    overflow-y: auto;
+}
+
+.mr-r-10{
+    margin-right: 10px;
+}
+.mr-r-20{
+    margin-right: 20px;
+}
+.mr-r-30{
+    margin-right: 30px;
+}
+
+.col-gray{
+    color: #595959;
+}
+
+.dis-flex{
+    display: flex;
+}
+
+/* SETUP DIMENSIONI */
+
+.header-controller{
+    width: 100vw;
+    height: 12vh;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.navigation-coffin{
+    width: 17vw;
+    height: calc(100vh - 12vh);
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main{
+    width: calc(100vw - 17vw);
+    height: calc(100vh - 12vh);
+    background-color: #141922;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* HEADER */
+.header-controller{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* UTILITY HEADER */
+
+.container-left .banner-music,
+.container-left .icon-banner{
+    align-items: center;
+}
+
+/* CONTAINER LEFT BAR CONTROLLER */
+.container-left .banner-music img{
+    width: 45px;
+    height: 45px;
+}
+
+.banner-music .info-music-banner span{
+   font-size: 12px;
 }
