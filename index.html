@@ -25,7 +25,7 @@
             <!-- CONTAINER LEFT BAR CONTROLLER -->
             <div class="container-left dis-flex">
 
-                <div class="banner-music dis-flex">
+                <div class="banner-music alig-cent dis-flex">
 
                     <img class="mr-r-10" src="./img/sinister.jpeg" alt="sinister cover">
 
@@ -35,8 +35,8 @@
                     </div>
                 </div>
 
-                <div class="icon-banner dis-flex">
-                    
+                <div class="icon-banner alig-cent dis-flex">
+
                     <i class="mr-r-10 col-gray far fa-heart"></i>
                     <i class="col-gray far fa-folder"></i>
                 </div>
@@ -46,27 +46,48 @@
             <div class="container-center">
 
                 <!-- CONTROLLER -->
-                <div class="controller-music"></div>
+                <div class="controller-music dis-flex alig-cent">
+                    <!-- random -->
+                    <i class="mr-r-10 fas fa-random"></i>
+                    <!-- backward -->
+                    <i class="mr-r-20 fas fa-step-backward"></i>
+                    <!-- play -->
+                    <i class="mr-r-20 play-music far fa-play-circle"></i>
+                    <!-- forward -->
+                    <i class="mr-r-10 fas fa-step-forward"></i>
+                    <!-- redo -->
+                    <i class="fas fa-redo"></i>
+                </div>
 
                 <!--  BAR TIME -->
-                <div class="bar">
+                <div class="bar dis-flex alig-cent">
 
-                    <span class="time-bar"></span>
-                    <span class="progress-bar"></span>
-                    <span class="time-bar"></span>
+                    <span class="mr-r-10 time-bar">0:25</span>
+                    <span class="mr-r-10 progress-bar">
+                        <span class="progress"></span>
+                    </span>
+                    <span class="time-bar">4:23</span>
                 </div>
             </div>
 
             <!-- CONTAINER RIGHT BAR CONTROLLER -->
-            <div class="container-right">
+            <div class="container-right dis-flex alig-cent">
 
-                <div class="icon-banner"></div>
+                <div class="icon-banner mr-r-20">
+                    <i class="mr-r-10 fas fa-list-ul"></i>
+                    <i class="fas fa-desktop"></i>
+                </div>
 
-                <!--  BAR TIME -->
-                <div class="bar">
+                <!--  BAR SOUND -->
+                <div class="bar dis-flex alig-cent">
 
-                    <span class="icon-bar"></span>
-                    <span class="progress-bar"></span>
+                    <span class="icon-bar mr-r-10">
+                        <i class="fas fa-volume-up"></i>
+                    </span>
+
+                    <span class="sound-bar">
+                        <span class="progress"></span>
+                    </span>
                 </div>
             </div>
         </header>

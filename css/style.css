@@ -28,6 +28,9 @@
 .dis-flex{
     display: flex;
 }
+.alig-cent{
+    align-items: center;
+}
 
 /* SETUP DIMENSIONI */
 
@@ -67,11 +70,6 @@ main{
 
 /* UTILITY HEADER */
 
-.container-left .banner-music,
-.container-left .icon-banner{
-    align-items: center;
-}
-
 /* CONTAINER LEFT BAR CONTROLLER */
 .container-left .banner-music img{
     width: 45px;
@@ -80,4 +78,55 @@ main{
 
 .banner-music .info-music-banner span{
    font-size: 12px;
+}
+
+/* CONTAINER CENTER BAR CONTROLLER */
+.container-center .controller-music{
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-center .controller-music i{
+    font-size: 18px;
+}
+.container-center .controller-music i.play-music{
+    font-size: 26px;
+}
+
+
+/* BAR TIME && BAR SOUND */
+.bar .time-bar{
+    font-size: 12px;
+}
+
+.bar .progress-bar{
+    position: relative;
+    width: 25vw;
+    height: 3px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+}
+
+.bar .sound-bar{
+    position: relative;
+    width: 8vw;
+    height: 3px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+}
+
+
+.bar .progress{
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: #c1c1c1;
+    border-radius: 3px;
+}
+
+/* CONTAINER RIGHT */
+.container-left i,
+.container-right i{
+    font-size: 15px;
 }
