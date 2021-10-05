@@ -51,7 +51,7 @@
 }
 
 .navigation-coffin{
-    width: 17vw;
+    width: 15vw;
     height: calc(100vh - 12vh);
     background-color: #000000;
     position: fixed;
@@ -60,7 +60,7 @@
 }
 
 main{
-    width: calc(100vw - 17vw);
+    width: calc(100vw - 15vw);
     height: calc(100vh - 12vh);
     background-color: #141922;
     position: fixed;
@@ -156,12 +156,23 @@ main{
 .navigation-coffin nav ul li{
     list-style: none;
 }
+
+.playlist ul li a,
 .navigation-coffin nav ul li a{
     text-decoration: none;
     font-size: 14px;
 }
 .navigation-coffin nav ul li a img{
-    width: 13%;
+    width: 12%;
 }
 
 /* PLAYLIST SECTION */
+.playlist div.add-playlist i{
+    font-size: 30px;
+    color: #8d8d8d;
+}
+
+.playlist ul.overf-y{
+    width: 100%;
+    height: 180px;
+}
