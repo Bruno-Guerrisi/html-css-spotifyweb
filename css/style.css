@@ -142,10 +142,13 @@ main{
 /************************
     NAVIGATION BAR (LEFT)
 *************************/
-
 .navigation-coffin{
-    padding: 15px;
+    padding: 10px 15px;
     flex-direction: column;
+}
+
+.container-main-nav{
+    flex-grow: 1;
 }
 
 /* LOGO SPOTIFY */
@@ -176,15 +179,13 @@ main{
 .playlist ul.overf-y{
     width: 100%;
     height: 180px;
-    background-color: lightblue;
 }
 
-
-.footer-nav-left{
-    /* display: grid;
-    align-self: flex-start; */
-}
 /* DOWNLOAD APP */
+.footer-nav-left{
+    height: 65px;
+}
+
 .download {
     border-bottom: 1px solid #8d8d8d;
 }
@@ -195,4 +196,9 @@ main{
 .download a img,
 .account a img{
     width: 11%;
+}
+
+.account a img{
+    background-color: gray;
+    border-radius: 50%;
 }
