@@ -145,6 +145,7 @@ main{
 
 .navigation-coffin{
     padding: 15px;
+    flex-direction: column;
 }
 
 /* LOGO SPOTIFY */
@@ -175,4 +176,23 @@ main{
 .playlist ul.overf-y{
     width: 100%;
     height: 180px;
+    background-color: lightblue;
+}
+
+
+.footer-nav-left{
+    /* display: grid;
+    align-self: flex-start; */
+}
+/* DOWNLOAD APP */
+.download {
+    border-bottom: 1px solid #8d8d8d;
+}
+.account a,
+.download a{
+    text-decoration: none;
+}
+.download a img,
+.account a img{
+    width: 11%;
 }
