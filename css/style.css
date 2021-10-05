@@ -21,6 +21,13 @@
     margin-right: 30px;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
 .col-gray{
     color: #595959;
 }
@@ -61,14 +68,15 @@ main{
     right: 0;
 }
 
-/* HEADER */
+/*************** 
+    HEADER
+****************/
+
 .header-controller{
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
 }
-
-/* UTILITY HEADER */
 
 /* CONTAINER LEFT BAR CONTROLLER */
 .container-left .banner-music img{
@@ -115,7 +123,6 @@ main{
     border-radius: 3px;
 }
 
-
 .bar .progress{
     display: inline-block;
     position: absolute;
@@ -130,3 +137,31 @@ main{
 .container-right i{
     font-size: 15px;
 }
+
+
+/************************
+    NAVIGATION BAR (LEFT)
+*************************/
+
+.navigation-coffin{
+    padding: 15px;
+}
+
+/* LOGO SPOTIFY */
+.navigation-coffin .logo img{
+    width: 60%;
+}
+
+/* NAVIGATION BAR */
+.navigation-coffin nav ul li{
+    list-style: none;
+}
+.navigation-coffin nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.navigation-coffin nav ul li a img{
+    width: 13%;
+}
+
+/* PLAYLIST SECTION */
