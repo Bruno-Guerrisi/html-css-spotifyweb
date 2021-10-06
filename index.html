@@ -23,7 +23,7 @@
         <header class="header-controller dis-flex">
 
             <!-- CONTAINER LEFT BAR CONTROLLER -->
-            <div class="container-left dis-flex">
+            <div class="container-left dis-flex alig-cent">
 
                 <div class="banner-music alig-cent dis-flex">
 
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="icon-banner alig-cent dis-flex">
+                <div class="icon-banner">
 
                     <i class="mr-r-10 col-gray far fa-heart"></i>
                     <i class="col-gray far fa-folder"></i>
@@ -43,7 +43,7 @@
             </div>
 
             <!-- CONTAINER CENTER BAR CONTROLLER -->
-            <div class="container-center">
+            <div class="container-center mr-r-20">
 
                 <!-- CONTROLLER -->
                 <div class="controller-music dis-flex alig-cent">
@@ -73,7 +73,7 @@
             <!-- CONTAINER RIGHT BAR CONTROLLER -->
             <div class="container-right dis-flex alig-cent">
 
-                <div class="icon-banner mr-r-20">
+                <div class="icon-banner mr-r-10">
                     <i class="mr-r-10 fas fa-list-ul"></i>
                     <i class="fas fa-desktop"></i>
                 </div>
@@ -93,9 +93,9 @@
         </header>
 
         <!-- NAVIGATION BAR (LEFT) -->
-        <section class="navigation-coffin dis-flex">
+        <section class="navigation-coffin dis-flex overf-y">
 
-            <div class="container-main-nav">
+            <div class="container-main-nav mb-20">
 
                 <!-- LOGO SPOTIFY -->
                 <div class="logo mb-20">
@@ -186,7 +186,10 @@
                     
                     <a href="#" class="dis-flex alig-cent">
                         
-                        <img class="mr-r-10" src="./img/profile.svg" alt="libreria">
+                        <div class="mr-r-10 dis-flex alig-cent">
+                            <img src="./img/profile.svg" alt="libreria">
+                        </div>
+                        
                         <span class="col-gray">John Doe</span>
                     </a>
                 </div>
@@ -194,142 +197,163 @@
 
         </section>
 
-        <main class=".overf-y">
+        <main class="overf-y">
 
             <!-- UPGRADE SPOTIFY -->
-            <div class="header-upgrade"></div>
+            <div class="header-upgrade dis-flex">
+                <button class="butt-upgrade">EFFETTUA L'UPGRADE</button>
+            </div>
 
-            <!-- NAVIGATION BAR (MAIN) -->
-            <!-- <nav>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </nav> -->
+            <section class="lower-body">
 
-            <!-- RECENTLY PLAYED -->
-            <section class="recently">
+                <!-- NAVIGATION BAR (MAIN) -->
+                <nav class="navbar-main dis-flex mb-20">
+                    <li>
+                        <a href="#">In evidenza</a>
+                    </li>
+                    <li>
+                        <a href="#">podcast</a>
+                    </li>
+                    <li>
+                        <a href="#">classifiche</a>
+                    </li>
+                    <li>
+                        <a href="#">generi e mood</a>
+                    </li>
+                    <li>
+                        <a href="#">nuove uscite</a>
+                    </li>
+                    <li>
+                        <a href="#">scopri</a>
+                    </li>
+                </nav>
 
-                <h2></h2>
-                <!-- CONTAINER SOUND TRACK -->
-                <div class="sound-track">
+                <!-- RECENTLY PLAYED -->
+                <section class="recently">
 
-                    <!-- * 1 * BOX MUSIC -->
-                    <div class="box">
+                    <h2 class="mb-20">Recently played</h2>
+                    <!-- CONTAINER SOUND TRACK -->
 
-                        <div class="cover"></div>
+                    <ul class="album-list dis-flex">
+                        <!-- * 1 * BOX MUSIC -->
+                        <li class="box-album">
 
-                        <h3 class="title"></h3>
+                            <div class="cover"></div>
 
-                        <span class="subtitle"></span>
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+
+                        <!-- * 2 * BOX MUSIC -->
+                        <li class="box-album">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+
+                        <!-- * 3 * BOX MUSIC -->
+                        <li class="box-album">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+
+                        <!-- * 4 * BOX MUSIC -->
+                        <li class="box-album">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+
+                        <!-- * 5 * BOX MUSIC -->
+                        <li class="box-album">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+
+                        <!-- * 6 * BOX MUSIC -->
+                        <li class="box-album">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+
+                            <span class="subtitle"></span>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <!-- CREATED FOR YOU -->
+                <section class="for-you">
+
+                    <h2></h2>
+                    <span class="subtitle"></span>
+
+                    <!-- CONTAINER SOUND TRACK -->
+                    <div class="sound-track">
+
+                        <ul>
+                            <!-- * 1 * BOX MUSIC -->
+                            <div class="box">
+
+                                <div class="cover"></div>
+
+                                <h3 class="title"></h3>
+                            </div>
+
+                            <!-- * 2 * BOX MUSIC -->
+                            <div class="box">
+
+                                <div class="cover"></div>
+
+                                <h3 class="title"></h3>
+                            </div>
+                        </ul>
                     </div>
+                </section>
 
-                    <!-- * 2 * BOX MUSIC -->
-                    <div class="box">
+                <!-- ARTIST -->
+                <section class="for-you">
 
-                        <div class="cover"></div>
+                    <h2></h2>
+                    <span class="subtitle"></span>
 
-                        <h3 class="title"></h3>
+                    <!-- CONTAINER ARTIST -->
+                    <div class="sound-track">
 
-                        <span class="subtitle"></span>
+                        <!-- * 1 * BOX ARTIST -->
+                        <div class="box-artist">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+                        </div>
+
+                        <!-- * 2 * BOX ARTST -->
+                        <div class="box-artist">
+
+                            <div class="cover"></div>
+
+                            <h3 class="title"></h3>
+                        </div>
                     </div>
+                </section>
 
-                    <!-- * 3 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-
-                        <span class="subtitle"></span>
-                    </div>
-
-                    <!-- * 4 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-
-                        <span class="subtitle"></span>
-                    </div>
-
-                    <!-- * 5 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-
-                        <span class="subtitle"></span>
-                    </div>
-
-                    <!-- * 6 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-
-                        <span class="subtitle"></span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CREATED FOR YOU -->
-            <section class="for-you">
-
-                <h2></h2>
-                <span class="subtitle"></span>
-
-                <!-- CONTAINER SOUND TRACK -->
-                <div class="sound-track">
-
-                    <!-- * 1 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-                    </div>
-
-                    <!-- * 2 * BOX MUSIC -->
-                    <div class="box">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ARTIST -->
-            <section class="for-you">
-
-                <h2></h2>
-                <span class="subtitle"></span>
-
-                <!-- CONTAINER ARTIST -->
-                <div class="sound-track">
-
-                    <!-- * 1 * BOX ARTIST -->
-                    <div class="box-artist">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-                    </div>
-
-                    <!-- * 2 * BOX ARTST -->
-                    <div class="box-artist">
-
-                        <div class="cover"></div>
-
-                        <h3 class="title"></h3>
-                    </div>
-                </div>
             </section>
         </main>
 
