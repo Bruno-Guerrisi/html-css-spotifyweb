@@ -157,8 +157,30 @@ main{
     width: 100px;
     height: 30px;
     background-image: url("../img/logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
+.navigation-coffin .logo-navbar-class{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation-coffin .logo-home{
+    background-image: url("../img/home.svg");
+}
+.navigation-coffin .logo-search{
+    background-image: url("../img/search.svg");
+}
+.navigation-coffin .logo-libreria{
+    background-image: url("../img/libreria.svg");
+}
+
 
 /* NAVIGATION BAR */
 .navigation-coffin nav ul li{
@@ -186,6 +208,10 @@ main{
 }
 
 /* DOWNLOAD APP */
+.footer-nav-left .logo-download{
+    background-image: url("../img/download.svg");
+}
+
 .footer-nav-left{
     height: 65px;
 }
@@ -193,19 +219,22 @@ main{
 .download {
     border-bottom: 1px solid #8d8d8d;
 }
+
 .account a,
 .download a{
     text-decoration: none;
 }
-.download a img{
-    width: 13%;
-}
+
 .account a div{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: gray;
-    justify-content: center;
+    background-image: url("../img/profile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .account a div img{
     width: 70%;

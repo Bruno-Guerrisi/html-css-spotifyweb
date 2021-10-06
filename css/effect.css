@@ -19,20 +19,24 @@
 /* SPOTIFY MD 500 */
 @media screen and (max-width: 500px){
 
-    .navigation-coffin{
-        width: 50px;
-    }
-    
+    /* MAIN SECTION */
     main{
         width: calc(100% - 50px);
     }
-
+    
+    .header-upgrade{
+        width: calc(100% - 50px);
+    }
+    
+    /* NAVIGATION BAR (LEFT) */
+    .navigation-coffin{
+        width: 50px;
+    }
 
     .navigation-coffin .logo{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         background-image: url("../img/logo-small.svg");
-        background-size: cover;
     }
 
     .footer-nav-left .download a span,
@@ -42,20 +46,13 @@
         display: none;
     }
 
-    .navigation-coffin .logo,
+    .navbar-coffin ul li a,
     .footer-nav-left .download a,
-    .footer-nav-left .account a,
-    .navbar-coffin ul li a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30px;
+    .footer-nav-left .account a{
+        width: 50px;
     }
 
-    .footer-nav-left .download a img,
-    .navbar-coffin img{
-        width: 30px;
+    .download {
+        border-bottom: 0;
     }
-
-
 }
