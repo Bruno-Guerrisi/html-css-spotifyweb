@@ -90,19 +90,30 @@
     border-radius: 50%;
     background-color: white;
     display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 
 /************
  MAIN EFFECT  
 *************/
-.navbar-main li:first-child a::after{
+.navbar-main li:first-child{
+    position: relative;
+    margin-bottom: 3px;
+}
+.navbar-main li:first-child::after{
     content: '';
     display: block;
-    width: 50%;
+    width: 40%;
     height: 2px;
     background-color: #adff2f;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .butt-upgrade:hover{

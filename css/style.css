@@ -89,6 +89,10 @@ main{
    font-size: 12px;
 }
 
+.container-left .icon-banner{
+    flex-direction: column;
+}
+
 /* CONTAINER CENTER BAR CONTROLLER */
 .container-center .controller-music{
     justify-content: center;
@@ -111,7 +115,7 @@ main{
 .bar .progress-bar{
     position: relative;
     width: 25vw;
-    height: 3px;
+    height: 5px;
     background-color: #5a5a5a;
     border-radius: 3px;
 }
@@ -119,7 +123,7 @@ main{
 .bar .sound-bar{
     position: relative;
     width: 8vw;
-    height: 3px;
+    height: 5px;
     background-color: #5a5a5a;
     border-radius: 3px;
 }
@@ -128,9 +132,9 @@ main{
     display: inline-block;
     position: absolute;
     width: 25%;
-    height: 3px;
+    height: 5px;
     background-color: #c1c1c1;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 /* CONTAINER RIGHT */
@@ -255,6 +259,7 @@ main{
     padding-right: 20px;
     position: fixed;
     flex-shrink: 0;
+    z-index: 1;
 }
 .header-upgrade .butt-upgrade{
     padding: 10px;
@@ -307,15 +312,23 @@ main{
     margin-right: 0;
 }
 
+.cover{
+    width: 100%;
+    height: 180px;
+}
+
 .cover img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .title{
-    margin-bottom: 5px;
+    margin: 5px  0;
     font-size: 16px;
 }
 .subtitle{
+    color: #7d7f84;
     font-size: 12px;
 }
 
