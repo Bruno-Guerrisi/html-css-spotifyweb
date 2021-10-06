@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-weight: bold;
 }
 
 /* UTILITY */
@@ -29,7 +30,7 @@
 }
 
 .col-gray{
-    color: #595959;
+    color: #7d7f84;
 }
 
 .dis-flex{
@@ -231,7 +232,7 @@ main{
 
 /* NAVIGATION BAR (MAIN) */
 .lower-body{
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 15px;
 }
 
@@ -250,13 +251,41 @@ main{
 }
 
 /* RECENTLY PLAYED */
+.recently,
+.for-you,
+.artist{
+    margin-bottom: 40px;
+}
+
 .album-list{
     flex-wrap: wrap;
     list-style: none;
+    margin-top: 30px;
 }
 
-.album-list .box-albm{
+/* BOX MUSIC */
+.album-list .box-album{
     width: calc(100% / 6 - 10px);
     margin-right: 10px;
     margin-bottom: 10px;
+    text-align: center;
+}
+.album-list:last-child{
+    margin-right: 0;
+}
+
+.cover img{
+    width: 100%;
+}
+
+.title{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.subtitle{
+    font-size: 12px;
+}
+
+.artist .album-list .box-album .cover img{
+    border-radius: 50%;
 }
