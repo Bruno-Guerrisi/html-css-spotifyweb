@@ -67,6 +67,76 @@
     EFFECT
 **************/
 
-/* .cur-pon{
+/* utilities */
+.col-gray:hover{
+    color: white;
+}
+.cur-pon:hover{
+    cursor: pointer;
+}
 
-} */
+/************
+ HEADER EFFECT  
+*************/
+.bar .progress:hover{
+    background-color: #adff2f;
+    cursor: pointer;
+}
+
+.bar .progress:hover::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+}
+
+
+/************
+ MAIN EFFECT  
+*************/
+.navbar-main li:first-child a::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #adff2f;
+    text-align: center;
+}
+
+.butt-upgrade:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+.cover{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-play{
+    position: absolute;
+    font-size: 38px;
+    display: none;
+}
+
+.cover:hover::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../img/);
+    cursor: pointer;
+}
+.cover:hover .icon-play{
+    display: block;
+    cursor: pointer;
+}
+
+.artist .cover:hover::before{
+    border-radius: 50%;
+}
