@@ -78,12 +78,27 @@
 /************
  HEADER EFFECT  
 *************/
-.bar .progress:hover{
+.container-left .info-music-banner span:hover{
+    text-decoration: underline;
+}
+
+/* music controller */
+.container-center .controller-music i:hover{
+    cursor: pointer;
+}
+
+.container-center .controller-music i:nth-child(3):hover{
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+/* time bar */
+.bar:hover .progress{
     background-color: #adff2f;
     cursor: pointer;
 }
 
-.bar .progress:hover::after{
+.bar:hover .progress::after{
     content: '';
     width: 10px;
     height: 10px;
@@ -94,6 +109,32 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    cursor: grab;
+}
+
+/*********************
+NAVIGATION BAR (LEFT)
+*********************/
+.logo-home{
+    position: relative;
+}
+.logo-home::before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: #adff2f;
+    position: absolute;
+    top: 0;
+    right: 110%;
+}
+
+.playlist div.add-playlist:hover *{
+    color: white;
+}
+
+.footer-nav-left .download:hover *{
+    color:white;
 }
 
 
@@ -116,11 +157,13 @@
     transform: translateX(-50%);
 }
 
+/* button upgrade */
 .butt-upgrade:hover{
     transition: transform 0.5s;
     transform: scale(1.1);
 }
 
+/* double background effect, main playlist */
 .cover{
     position: relative;
     justify-content: center;
