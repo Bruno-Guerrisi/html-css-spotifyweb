@@ -153,8 +153,11 @@ main{
 }
 
 /* LOGO SPOTIFY */
-.navigation-coffin .logo img{
-    width: 60%;
+.navigation-coffin .logo{
+    width: 100px;
+    height: 30px;
+    background-image: url("../img/logo.svg");
+    background-size: cover;
 }
 
 /* NAVIGATION BAR */
@@ -267,7 +270,7 @@ main{
 .album-list .box-album{
     width: calc(100% / 6 - 10px);
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .album-list:last-child{

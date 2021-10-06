@@ -1,0 +1,61 @@
+/**************
+   RESPONSIVE
+ *************/
+
+/* SPOTIFY MD 1100 */
+@media screen and (max-width: 1100px){
+    .album-list .box-album{
+        width: calc(100% / 4 - 10px);
+    }
+}
+
+/* SPOTIFY MD 700 */
+@media screen and (max-width: 700px){
+    .album-list .box-album{
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+/* SPOTIFY MD 500 */
+@media screen and (max-width: 500px){
+
+    .navigation-coffin{
+        width: 50px;
+    }
+    
+    main{
+        width: calc(100% - 50px);
+    }
+
+
+    .navigation-coffin .logo{
+        width: 30px;
+        height: 30px;
+        background-image: url("../img/logo-small.svg");
+        background-size: cover;
+    }
+
+    .footer-nav-left .download a span,
+    .footer-nav-left .account a span,
+    .navbar-coffin ul li a span,
+    .playlist{
+        display: none;
+    }
+
+    .navigation-coffin .logo,
+    .footer-nav-left .download a,
+    .footer-nav-left .account a,
+    .navbar-coffin ul li a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30px;
+    }
+
+    .footer-nav-left .download a img,
+    .navbar-coffin img{
+        width: 30px;
+    }
+
+
+}
