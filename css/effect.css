@@ -2,6 +2,26 @@
    RESPONSIVE
  *************/
 
+ /* responsive plailist list */
+ @media screen and (min-height: 900px){
+    .playlist ul.overf-y{
+        height: 250px;
+    }
+}
+
+ @media screen and (min-height: 768px){
+    .playlist ul.overf-y{
+        height: 200px;
+    }
+}
+
+ @media screen and (max-height: 600px){
+    .playlist ul.overf-y{
+        height: 90px;
+    }
+}
+
+
 /* SPOTIFY MD 1100 */
 @media screen and (max-width: 1100px){
     .album-list .box-album{
@@ -22,6 +42,15 @@
     /* HEADER */
     .header-controller{
         padding: 0 5px;
+    }
+
+    .header-controller .container-right{
+        flex-direction: column;
+    }
+
+    .container-right .icon-banner{
+        margin-bottom: 3px;
+        align-self: center;
     }
 
     /* MAIN SECTION */
@@ -54,7 +83,7 @@
     .navbar-coffin ul li a,
     .footer-nav-left .download a,
     .footer-nav-left .account a{
-        width: 50px;
+        width: 40px;
     }
 
     .download {

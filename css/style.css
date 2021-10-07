@@ -52,7 +52,7 @@
 }
 
 .navigation-coffin{
-    width: 180px;
+    width: 190px;
     height: calc(100% - 70px);
     background-color: #000000;
     position: fixed;
@@ -61,7 +61,7 @@
 }
 
 main{
-    width: calc(100% - 180px);
+    width: calc(100% - 190px);
     height: calc(100% - 70px);
     background-color: #141922;
     position: fixed;
@@ -188,6 +188,18 @@ main{
 
 
 /* NAVIGATION BAR */
+.liked-song > img{
+    width: 25px;
+    height: 25px;
+}
+
+.liked-song{
+    border-bottom: 1px solid #8d8d8d;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
 .navigation-coffin nav ul li{
     list-style: none;
 }
@@ -209,7 +221,7 @@ main{
 
 .playlist ul.overf-y{
     width: 100%;
-    height: 180px;
+    height: 150px;
 }
 
 /* DOWNLOAD APP */
@@ -252,7 +264,7 @@ main{
 
 /* UPGRADE SPOTIFY */
 .header-upgrade{
-    width: calc(100% - 180px);
+    width: calc(100% - 190px);
     height: 70px;
     background-color: #080b12b7;
     align-items: center;
